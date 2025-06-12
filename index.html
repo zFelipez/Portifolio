@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+<body class="">
+  
+  
+  <div id="site-content">
+    <div class="nav-wrapper-wrap">
+        <div class="nav-wrapper">
+      <nav class="navegation-box">
+    
+       <ul class="navegation-box-cont">
+            <li > <a href="#home" class="navegation-box-cont-i navegation-box-cont-i-a down-line down-line-a nav-box-i-back"> Home</a></li>
+            <li > <a href="#about" class="navegation-box-cont-i navegation-box-cont-i-a down-line down-line-a nav-box-i-back" > Sobre</a></li>
+            <li > <a href="#skills" class="navegation-box-cont-i navegation-box-cont-i-a down-line down-line-a nav-box-i-back">Habilidades</a></li>
+            <li > <a href="#contact" class="navegation-box-cont-i navegation-box-cont-i-ac">Contato</a></li>
+            <button id="theme-switch" class="navegation-box-cont-i">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z"/></svg>
+      
+     </button>
+          </ul>
+    </nav></div></div>
+
+
+    <main class=" main-cont">
+
+     
+           
+           <img id="home" src="img1.png" alt="profile-photo" class="profile-photo">
+           <h1 id="home">Seu nome</h1>
+           <p class="title-p down-line down-line-a  "> Estudante de tecnologia</p>
+
+    
+
+    </main>
+
+
+    <section id="about" class="about sec-boxes">
+       <div class="subtitle-h2-box"><h2 class="subtitle  down-line down-line-a"> Sobre mim</h2></div>
+      
+
+      <div class="about-box  subtitle-box"> 
+        <p class="about-box-p  subtitle-box-p"> Feliperem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, tempora ad fuga nisi eaque libero aliquid dolorum dolore laborum nulla. Itaque inventore amet non placeat. Id ullam quos natus sapiente excepturi, nostrum modi nisi esse earum ipsam laboriosam expedita beatae voluptatibus alias inventore magni at! Dolorum laborum minus error, animi beatae modi nulla incidunt exercitationem tempora sunt quia architecto. Cumque tempora natus praesentium laborum similique ex? Quis dicta quasi illum a inventore. Totam enim id commodi excepturi vitae voluptate aut sit, iste odio aliquid minima optio dolores illum assumenda officiis eaque, porro quasi culpa nemo similique obcaecati dicta! Minus, sunt?</p>
+      </div>
+
+    </section>
+
+    <section id="skills" class="skills sec-boxes">
+      <div class="subtitle-h2-box"><h2 class="subtitle  down-line down-line-a"> Habilidades</h2></div>
+      
+
+      <div class="skills-box  subtitle-box "> 
+        <p class="skills-box-p   subtitle-box-p"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, tempora ad fuga nisi eaque libero aliquid dolorum dolore laborum nulla. Itaque inventore amet non placeat. Id ullam quos natus sapiente excepturi, nostrum modi nisi esse earum ipsam laboriosam expedita beatae voluptatibus alias inventore magni at! Dolorum laborum minus error, animi beatae modi nulla incidunt exercitationem tempora sunt quia architecto. Cumque tempora natus praesentium laborum similique ex? Quis dicta quasi illum a inventore. Totam enim id commodi excepturi vitae voluptate aut sit, iste odio aliquid minima optio dolores illum assumenda officiis eaque, porro quasi culpa nemo similique obcaecati dicta! Minus, sunt?</p>
+      </div>
+
+    </section>
+
+
+
+    <section id="contact" class=" sec-boxes">
+     <div class="contact">
+      <div class="subtitle-h2-box"> <h2 class="subtitle subtitle-contact  down-line down-line-a"> Contato</h2></div>
+
+      <form action="https://formsubmit.co/seu_email" method="POST" class="form">
+
+      <div class="form-group">
+        <input type="text" name="name"  placeholder="Nome"  class="form-field form-field-s" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email"  placeholder="Email"  class="form-field form-field-s" required>
+      </div>
+
+        <div class="form-group">   
+        <textarea name="message"  placeholder="Digite sua mensagem" rows="6" class="form-field" required></textarea>
+       </div>
+       <input type="hidden" name="_captcha" value="false">
+       <input  type="hidden" name="_next" value="https://...">
+
+       <div class="form-group" > 
+       <button type="submit" class="form-btn"> 
+        
+          
+         <div class="text"> Enviar </div>
+         <div class="wave"></div>
+        </button> </div> 
+        </form>
+       
+    
+      </div>
+    </section>
+
+    
+    <footer>
+
+       <div class="footer  nav-wrapper nav-wrapper-wrap "> <p>Meu Github <a href="link"> link do github</a> </p>
+      </div>
+    </footer>
+</div>
+
+
+
+
+  <script type="module">
+    
+
+    const gapSize = document.querySelector('.navegation-box-cont')  
+     const screenWidth= window.innerWidth
+      
+   const defineWidth = (size)=>{
+           gapSize.style.gap = `${size}rem`;
+    }
+   function analizeWidth() {
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth <= 480) {
+    defineWidth(1.0);  
+  } else if (screenWidth <= 767) {
+    defineWidth(1.8);
+  } else if (screenWidth <= 1024) {
+    defineWidth(2.5);
+  } else if (screenWidth <= 1366) {
+    defineWidth(3.2); 
+  } else {
+    defineWidth(4);  
+  }
+}
+  analizeWidth()
+  window.addEventListener('resize', analizeWidth);
+
+  function switchTheme(){
+ 
+  const botao=  document.querySelector('#theme-switch');
+  botao.addEventListener('click', (e)=>{
+    document.body.classList.toggle('sRoot')
+  })
+  
+    
+
+  }
+
+  switchTheme()
+
+  </script>
+
+
+</body>
+</html>
