@@ -3,7 +3,7 @@ Este meu primeiro projeto, é um portifolio pessoal , ainda em andamento . Feito
 
 Este é o link do meu portifolio ja feito o deploy na netlify: https://portifolio-felip.netlify.app/
 
-Tambem utilizei esses canais e videos do youtube como inspiração ou fonte de aprendizado para reealização deste projeto. Segue abaixo os links das referencias que tive:
+Tambem utilizei esses canais e videos do youtube como inspiração ou fonte de aprendizado para realização deste projeto. Segue abaixo os links das referencias que tive:
 
 - https://www.youtube.com/watch?v=NSxGZ7fC5AA
 - https://www.youtube.com/watch?v=_gKEUYarehE
