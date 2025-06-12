@@ -5,10 +5,10 @@ Este é o link do meu portifolio ja feito o deploy na netlify: https://portifoli
 
 Tambem utilizei esses canais e videos do youtube como inspiração ou fonte de aprendizado para reealização deste projeto. Segue abaixo os links das referencias que tive:
 
-https://www.youtube.com/watch?v=NSxGZ7fC5AA
-https://www.youtube.com/watch?v=_gKEUYarehE
-https://www.youtube.com/watch?v=0TnO1GzKWPc
-https://www.youtube.com/watch?v=boqvpJrVTzI
-https://www.youtube.com/watch?v=z_qmpklj89s
-https://www.youtube.com/watch?v=2umsItNQ9mI
-https://www.youtube.com/watch?v=V1vmK3EOCuI
+- https://www.youtube.com/watch?v=NSxGZ7fC5AA
+- https://www.youtube.com/watch?v=_gKEUYarehE
+- https://www.youtube.com/watch?v=0TnO1GzKWPc
+- https://www.youtube.com/watch?v=boqvpJrVTzI
+- https://www.youtube.com/watch?v=z_qmpklj89s
+- https://www.youtube.com/watch?v=2umsItNQ9mI
+- https://www.youtube.com/watch?v=V1vmK3EOCuI
