@@ -1,5 +1,5 @@
 # Portifolio
-Este meu primeiro projeto, é um portifolio pessoal , ainda em andamento . Feito em Html, CSS e Javascript. Desenvolvi este meu primeiro projeto com foco em praticar meus conhecimentos em front-end, a sendo que maior parte foi codificado manualmente e em algumas ocasiões utilizei ferramentas de IA, como apoio na solução de alguma parte que tive mais dificuldade . 
+Este meu primeiro projeto, é um portifolio pessoal , ainda em andamento . Feito em Html, CSS e Javascript. Desenvolvi este meu primeiro projeto com foco em praticar meus conhecimentos em front-end, a sendo que maior parte foi codificado manualmente e em algumas ocasiões utilizei ferramentas de IA, como apoio na solução de partes que tive mais dificuldade . 
 
 Este é o link do meu portifolio ja feito o deploy na netlify: https://portifolio-felip.netlify.app/
 
